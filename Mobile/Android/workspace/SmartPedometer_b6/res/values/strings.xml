@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<string name="app_name">SmartPedometer Development Build 6</string>
+    <string name="x_string">X = 0.00</string>
+    <string name="y_string">Y = 0.00</string>
+    <string name="z_string">Z = 0.00</string>
+    <string name="s_string">S = 0.00</string>
+    <string name="p_string">P = 0.00</string>
+    <string name="sr_string">Sample Rate = 0 Hz</string>
+    <string name="rt_string">Run Time = 0:00</string>
+    <string name="st_string">Step Rate = 0.0 s/min</string>
+    <string name="lp_string">Low Pass Filter</string>
+    <string name="ma_string">Moving Average Filter</string>
+    <string name="wg_string">Moving Average Weights = 2</string>
+    <string name="th_string">Trigger Threshold = 0.0</string>
+    <string name="steps_string">Steps = 0</string>
+    <string name="reset_string">Reset</string>
+    <string name="record_string">Record</string>
+    <string name="stop_string">Stop</string>
+    <string name="vol_string">Volume = 0</string>
+    <string name="data_string">Data File not open</string>
+</resources>

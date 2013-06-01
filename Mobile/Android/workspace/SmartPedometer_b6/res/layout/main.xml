@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.54"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textViewX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/x_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/y_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/z_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+            <TextView
+                android:id="@+id/textViewScalar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewPeaks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/p_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:id="@+id/textViewSampleRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sr_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <TextView
+                android:id="@+id/textViewRunTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rt_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+            <TextView
+                android:id="@+id/textViewStepRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/st_string"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+
+            <TextView
+                android:id="@+id/textViewSteps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/steps_string"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="12pt" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lp_string"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="8pt" />
+
+
+
+            <ToggleButton
+                android:id="@+id/toggleButtonLowPass"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+
+
+        <SeekBar
+            android:id="@+id/seekBarTriggerThreshold"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textViewTriggerThreshold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/th_string"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="6pt" />
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reset_string" />
+
+
+
+            <Button
+                android:id="@+id/buttonRecord"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/record_string" />
+
+
+
+
+
+            <Button
+                android:id="@+id/buttonStop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/stop_string" />
+
+        </LinearLayout>
+
+
+
+        <SeekBar
+            android:id="@+id/seekBarVolume"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textViewVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vol_string"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="6pt" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textViewDataFile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/data_string"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="6pt" />
+
+    </LinearLayout>
+
+</LinearLayout>
